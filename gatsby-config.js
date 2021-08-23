@@ -11,7 +11,15 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        name: `Holium`,
+        short_name: `Holium`,
+        description: `Holium`,
+        lang: `en`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+        start_url: `/`,
+        background_color: `#390048`,
+        theme_color: `#AD6CD6`,
       },
     },
     "gatsby-plugin-sharp",
