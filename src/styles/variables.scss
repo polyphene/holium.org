@@ -1,0 +1,13 @@
+$color-primary: #AD6CD6;
+
+$color-blue: #C4FAF8;
+$color-pink: #FFCCF9;
+$color-purple: #ECD4FF;
+
+$background-light: #FFFAFF;
+$background-dark: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(178.81deg, #390048 23.47%, #000000 114.86%);
+
+$gradient-light: linear-gradient(180deg, $color-blue 0%, $color-pink 100%);
+$gradient-dark: linear-gradient(180deg, #E580FF 0%, #B780FF 100%);
+
