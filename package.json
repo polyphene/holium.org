@@ -1,9 +1,9 @@
 {
-  "name": "holium",
+  "name": "holium-website",
   "version": "1.0.0",
   "private": true,
   "description": "Holium",
-  "author": "PhilippeMts",
+  "author": "Polyphene <contact@polyphene.io>",
   "keywords": [
     "gatsby"
   ],
