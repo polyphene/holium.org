@@ -7,7 +7,7 @@ import IconCard from './icon-card'
 const SectionSlideshow = () => {
   return (
     <div className={classNames('container', styles.wrapper)}>
-      <Typography variant="h2" className={styles.title}>
+      <Typography variant="h2">
         Here is what we do at Polyphene
       </Typography>
       <div className={styles.body}>

@@ -7,7 +7,7 @@ const SectionTerminal = () => {
   return (
     <div className={styles.background}>
       <div className={classNames('container', styles.wrapper)}>
-        <Typography variant="h2" className={styles.title}>
+        <Typography variant="h2">
           Here could be a terminal
         </Typography>
         <div className={styles.mockTerminal}/>

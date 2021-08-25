@@ -9,10 +9,7 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-
-  .title {
-    color: $text-dark;
-  }
+  color: $text-dark;
 
   .mock-terminal {
     background: $color-black;

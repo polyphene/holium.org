@@ -8,7 +8,7 @@ const SectionWhyHolium = () => {
   return (
     <div className={styles.background}>
       <div className={classNames('container', styles.wrapper)}>
-        <Typography variant="h2" className={styles.title}>
+        <Typography variant="h2">
           Here is why Holium fit any data project you build
         </Typography>
         <div className={styles.body}>
