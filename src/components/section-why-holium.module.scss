@@ -1,25 +1,24 @@
 @import "../styles/variables";
+@import "../styles/mixins/svg-separators";
 
-.background {
-  background: $background-light;
-  width: 100%;  // TODO rm
-  padding: 0;   // TODO rm
-}
+.fullwidth-wrapper {
+  @include light-section(url('../images/separator-0.svg'), url('../images/separator-1.svg'));
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  color: $text-dark;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    color: $text-dark;
 
-  .body {
-    .cards-wrapper {
-      display: flex;
-      justify-content: space-between;
-    }
+    .body {
+      .cards-wrapper {
+        display: flex;
+        justify-content: space-between;
+      }
 
-    .text {
-      font-size: 20px;
-      line-height: 120%;
+      .text {
+        font-size: 20px;
+        line-height: 120%;
+      }
     }
   }
 }

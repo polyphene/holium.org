@@ -5,7 +5,7 @@ import Typography from './typography'
 
 const SectionTerminal = () => {
   return (
-    <div className={styles.background}>
+    <div className={styles.fullwidthWrapper}>
       <div className={classNames('container', styles.wrapper)}>
         <Typography variant="h2">
           Here could be a terminal

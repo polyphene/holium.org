@@ -1,18 +1,17 @@
 @import "../styles/variables";
+@import "../styles/mixins/svg-separators";
 
-.background {
-  background: $background-light;
-  width: 100%;  // TODO rm
-  padding: 0;   // TODO rm
-}
+.fullwidth-wrapper {
+  @include light-section(url('../images/separator-2.svg'), url('../images/separator-3.svg'));
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  color: $text-dark;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    color: $text-dark;
 
-  .mock-terminal {
-    background: $color-black;
-    height: 700px;
+    .mock-terminal {
+      background: $color-black;
+      height: 700px;
+    }
   }
 }

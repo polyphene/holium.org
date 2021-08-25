@@ -6,7 +6,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const Footer = () => {
   return (
-    <div className={styles.background}>
+    <div className={styles.fullwidthWrapper}>
       <div className={classNames('container', styles.wrapper)}>
         <div className={styles.column}>
           <StaticImage src={'../images/logo-dark.svg'} alt={'Holium logo'}
