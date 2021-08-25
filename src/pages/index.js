@@ -8,6 +8,7 @@ import SectionSlideshow from '../components/section-slideshow'
 import SectionTerminal from '../components/section-terminal'
 import SectionAdditionalInformation
   from '../components/section-addtional-information'
+import Footer from '../components/footer'
 
 const IndexPage = () => {
   return (
@@ -18,6 +19,7 @@ const IndexPage = () => {
         <SectionSlideshow/>
         <SectionTerminal/>
         <SectionAdditionalInformation/>
+        <Footer/>
       </main>
   )
 }
