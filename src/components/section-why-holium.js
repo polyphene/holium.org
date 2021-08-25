@@ -6,7 +6,7 @@ import IconCard from './icon-card'
 
 const SectionWhyHolium = () => {
   return (
-    <div className={classNames('container', styles.background)}>
+    <div className={styles.background}>
       <div className={classNames('container', styles.wrapper)}>
         <Typography variant="h2" className={styles.title}>
           Here is why Holium fit any data project you build
