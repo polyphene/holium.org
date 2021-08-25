@@ -2,9 +2,10 @@ import * as React from 'react'
 import { useEffect } from 'react'
 import { navigate } from 'gatsby'
 
-export default () => {
+const NotFoundPage = () => {
   useEffect(() => {
     navigate('/')
   }, [])
-  return (<div/>)
-};
+  return <div/>
+}
+export default NotFoundPage
