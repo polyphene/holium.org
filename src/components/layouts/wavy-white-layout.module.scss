@@ -1,0 +1,22 @@
+@import "../../styles/variables";
+
+.fullwidth-wrapper {
+  background: $background-light;
+  width: 100%;
+  padding: 0;
+
+  .top-separator,
+  .bottom-separator {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+
+
+
+//margin: 16vw 0 16vw;

@@ -3,10 +3,16 @@ import * as styles from './footer.module.scss'
 import classNames from 'classnames'
 import Typography from '../typography'
 import { StaticImage } from 'gatsby-plugin-image'
+import topSeparator from '../../images/separator-4.svg'
+import WavyWhiteLayout from '../layouts/wavy-white-layout'
 
 const Footer = () => {
   return (
-    <div className={styles.fullwidthWrapper}>
+    <WavyWhiteLayout
+      topSeparator={topSeparator}
+      topSeparatorHeight={''}
+      topMargin={'16vw'}
+    >
       <div className={classNames('container', styles.wrapper)}>
         <div className={styles.column}>
           <StaticImage src={'../images/logo-dark.svg'} alt={'Holium logo'}
@@ -28,7 +34,7 @@ const Footer = () => {
           <Typography variant='body3'>Media kit</Typography>
         </div>
       </div>
-    </div>
+    </WavyWhiteLayout>
   )
 }
 

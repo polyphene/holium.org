@@ -1,25 +1,19 @@
 @import "../../styles/variables";
-@import "../../styles/mixins/svg-separators";
 
-.fullwidth-wrapper {
-  @include light-section(url('../../images/separator-0.svg'), url('../../images/separator-1.svg'));
-  margin: 16vw 0 16vw;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: $text-dark;
 
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    color: $text-dark;
+  .body {
+    .cards-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
 
-    .body {
-      .cards-wrapper {
-        display: flex;
-        justify-content: space-between;
-      }
-
-      .text {
-        font-size: 20px;
-        line-height: 120%;
-      }
+    .text {
+      font-size: 20px;
+      line-height: 120%;
     }
   }
 }
