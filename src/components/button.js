@@ -3,9 +3,9 @@ import * as styles from './button.module.scss'
 import classNames from 'classnames'
 import Typography from './typography'
 
-const Button = ({ secondary = false, children, ...other }) => {
+const Button = ({ secondary = false, className, children, ...other }) => {
   return (
-    <button className={classNames(styles.button, secondary
+    <button className={classNames(className, styles.button, secondary
       ? styles.secondaryButton
       : styles.primaryButton)} {...other}>
       <Typography className={styles.text} variant="button">
