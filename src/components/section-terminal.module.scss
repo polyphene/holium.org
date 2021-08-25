@@ -1,0 +1,21 @@
+@import "../styles/variables";
+
+.background {
+  background: $background-light;
+  width: 100%;  // TODO rm
+  padding: 0;   // TODO rm
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    color: $text-dark;
+  }
+
+  .mock-terminal {
+    background: $color-black;
+    height: 700px;
+  }
+}

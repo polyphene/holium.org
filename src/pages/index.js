@@ -5,6 +5,7 @@ import Header from '../components/header'
 import Hero from '../components/hero'
 import SectionWhyHolium from '../components/section-why-holium'
 import SectionSlideshow from '../components/section-slideshow'
+import SectionTerminal from '../components/section-terminal'
 
 const IndexPage = () => {
   return (
@@ -13,6 +14,7 @@ const IndexPage = () => {
         <Hero/>
         <SectionWhyHolium/>
         <SectionSlideshow/>
+        <SectionTerminal/>
       </main>
   )
 }
