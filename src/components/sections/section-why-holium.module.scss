@@ -1,8 +1,8 @@
-@import "../styles/variables";
-@import "../styles/mixins/svg-separators";
+@import "../../styles/variables";
+@import "../../styles/mixins/svg-separators";
 
 .fullwidth-wrapper {
-  @include light-section(url('../images/separator-0.svg'), url('../images/separator-1.svg'));
+  @include light-section(url('../../images/separator-0.svg'), url('../../images/separator-1.svg'));
   margin: 16vw 0 16vw;
 
   .wrapper {

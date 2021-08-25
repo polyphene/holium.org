@@ -1,9 +1,9 @@
 import * as React from 'react'
 import * as styles from './section-additional-information.module.scss'
-import * as cardStyles from './card.module.scss'
-import Typography from './typography'
+import * as cardStyles from '../card.module.scss'
+import Typography from '../typography'
 import classNames from 'classnames'
-import Card from './card'
+import Card from '../card'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const SectionAdditionalInformation = () => {

@@ -2,8 +2,8 @@ import * as React from 'react'
 import * as styles from './header.module.scss'
 import classNames from 'classnames'
 import { StaticImage } from 'gatsby-plugin-image'
-import Button from './button'
-import Typography from './typography'
+import Button from '../button'
+import Typography from '../typography'
 
 const Header = () => {
   return (

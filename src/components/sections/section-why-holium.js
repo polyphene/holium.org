@@ -1,8 +1,8 @@
 import * as React from 'react'
 import * as styles from './section-why-holium.module.scss'
 import classNames from 'classnames'
-import Typography from './typography'
-import IconCard from './icon-card'
+import Typography from '../typography'
+import IconCard from '../icon-card'
 
 const SectionWhyHolium = () => {
   return (
