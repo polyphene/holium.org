@@ -1,0 +1,29 @@
+@import "../styles/variables";
+
+.background {
+  background: $background-light;
+  width: 100%;  // TODO rm
+  padding: 0;   // TODO rm
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    color: $text-dark;
+  }
+
+  .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .body {
+    .text {
+      color: $text-dark;
+      font-size: 20px;
+      line-height: 120%;
+    }
+  }
+}
