@@ -8,7 +8,7 @@ import Typography from '../typography'
 const Header = () => {
   return (
     <div className={classNames('container', styles.wrapper)}>
-      <StaticImage src={'../images/logo-white.svg'} alt={'Holium logo'}
+      <StaticImage src={'../../images/logo-white.svg'} alt={'Holium logo'}
                    width={251}
                    placeholder={'none'}
       />

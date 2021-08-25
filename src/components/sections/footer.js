@@ -15,7 +15,7 @@ const Footer = () => {
     >
       <div className={classNames('container', styles.wrapper)}>
         <div className={styles.column}>
-          <StaticImage src={'../images/logo-dark.svg'} alt={'Holium logo'}
+          <StaticImage src={'../../images/logo-dark.svg'} alt={'Holium logo'}
                        width={200}
                        placeholder={'none'}
                        className={styles.logo}
