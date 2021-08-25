@@ -1,31 +1,32 @@
 @import "../variables";
 
-@mixin light-section($image-before, $image-after) {
+@mixin light-section($image-before, $image-after, $image-before-height: 7vw, $image-after-height: $image-before-height) {
   background: $background-light;
   width: 100%;
   padding: 0;
 
-  @include with-svg-separators($image-before, $image-after);
-}
-
-@mixin with-svg-separators($image-before, $image-after) {
   &::after,
   &::before {
     content: '';
     display: block;
     position: absolute;
     width: 100%;
-    height: 7vw;
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
 
-  &::before {
-    transform: translateY(-100%) scaleY(-1);
-    background-image: $image-before;
+  @if $image-before != none {
+    &::before {
+      height: $image-before-height;
+      transform: translateY(-100%) scaleY(-1);
+      background-image: $image-before;
+    }
   }
 
-  &::after {
-    background-image: $image-after;
+  @if $image-after != none {
+    &::after {;
+      height: $image-after-height;
+      background-image: $image-after;
+    }
   }
 }

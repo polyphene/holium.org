@@ -3,10 +3,11 @@
 
 .fullwidth-wrapper {
   @include light-section(url('../images/separator-4.svg'), none);
+  margin-top: 16vw;
 
   .wrapper {
     display: flex;
-    min-height: 384px;
+    min-height: 312px;
     color: $text-dark;
 
     .column {

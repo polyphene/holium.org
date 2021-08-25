@@ -3,6 +3,7 @@
 
 .fullwidth-wrapper {
   @include light-section(url('../images/separator-0.svg'), url('../images/separator-1.svg'));
+  margin: 16vw 0 16vw;
 
   .wrapper {
     display: flex;
