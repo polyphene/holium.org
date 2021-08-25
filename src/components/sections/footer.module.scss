@@ -15,8 +15,12 @@
       margin-top: 20px;
     }
 
-    span:not(:last-child) {
-      margin-bottom: 36px;
+    span {
+      font-size: 20px;
+
+      &:not(:last-child) {
+        margin-bottom: 36px;
+      }
     }
   }
 }
