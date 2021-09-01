@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.wrapper {
+  display: flex;
+  min-height: 312px;
+  color: $text-dark;
+
+  .column {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .logo {
+      margin-top: 20px;
+    }
+
+    span {
+      font-size: 20px;
+
+      &:not(:last-child) {
+        margin-bottom: 36px;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: $text-dark;
+
+  .mock-terminal {
+    background: $color-black;
+    height: 700px;
+  }
+}

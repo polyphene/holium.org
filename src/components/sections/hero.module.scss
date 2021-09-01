@@ -1,0 +1,29 @@
+@import "../../styles/variables";
+
+.wrapper {
+  display: flex;
+
+  .main-box {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .text-gradient {
+      background: $text-gradient, $color-dark-blue;
+      color: transparent;
+      background-clip: text;
+
+      margin-bottom: 50px;
+    }
+
+    .button-wrapper {
+      display: flex;
+      align-items: baseline;
+
+      > *:not(:last-child) {
+        margin-right: 32px;
+      }
+    }
+  }
+}

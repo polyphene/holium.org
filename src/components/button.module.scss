@@ -1,0 +1,79 @@
+@import "../styles/variables";
+
+$shadow-color: rgba(41, 26, 51, 0.25);
+
+.button {
+  padding: 8px 17px;
+  border-radius: 5px;
+  border: none;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+.primary-button {
+  box-shadow: 0 12.5px 25px $shadow-color, inset 0px -4px 4px $color-dark-purple, inset 0px 4px 4px $color-dark-pink;
+  background: $gradient-dark;
+
+  .text {
+    color: $text-light;
+  }
+
+  &:disabled {
+    box-shadow: none;
+    background: $color-quite-light;
+
+    .text {
+      color: $text-grey;
+    }
+  }
+
+  &:hover:not(&:disabled) {
+    box-shadow: inset 0 0 0 2px $color-primary;
+    background: transparent;
+
+    .text {
+      color: $color-primary; // fallback color
+      background: -webkit-linear-gradient(270deg, $color-dark-pink 0%, $color-dark-purple 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+.secondary-button {
+  box-shadow: inset 0 0 0 2px $color-primary;
+  background: transparent;
+
+  .text {
+    color: $color-primary; // fallback color
+    background: -webkit-linear-gradient(270deg, $color-dark-pink 0%, $color-dark-purple 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &:disabled {
+    box-shadow: inset 0 0 0 2px $color-quite-light;
+    background: $color-light;
+
+    .text {
+      color: $text-grey;
+      background: initial;
+      -webkit-background-clip: initial;
+      -webkit-text-fill-color: initial;
+    }
+  }
+
+  &:hover:not(&:disabled) {
+    box-shadow: inset 0px -4px 4px $color-dark-purple, inset 0px 4px 4px $color-dark-pink;
+    background: $gradient-dark;
+
+    .text {
+      color: $color-light;
+      background: initial;
+      -webkit-background-clip: initial;
+      -webkit-text-fill-color: initial;
+    }
+  }
+}

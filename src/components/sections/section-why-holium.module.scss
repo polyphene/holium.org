@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: $text-dark;
+
+  .body {
+    .cards-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .text {
+      font-size: 20px;
+      line-height: 120%;
+    }
+  }
+}
