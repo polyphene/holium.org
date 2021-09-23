@@ -1,12 +1,12 @@
 @import "../styles/variables";
 
-$transparent-white: rgba($color-black, 0.195);
+$transparent-black: rgba($color-black, 0.195);
 $transparent-grey: rgba($color-not-so-light, 0.195);
 
 .card {
   width: 352px;
-  background: $transparent-white;
-  box-shadow: inset 18px -18px 18px $transparent-grey, inset -18px 18px 18px $transparent-white;
+  background: $transparent-black;
+  box-shadow: inset 18px -18px 18px $transparent-grey, inset -18px 18px 18px $transparent-black;
   backdrop-filter: blur(150px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 40px;
