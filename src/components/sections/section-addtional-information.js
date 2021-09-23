@@ -36,6 +36,7 @@ const SectionAdditionalInformation = () => {
             <Card title={'Big title'} image={
               <StaticImage src={'https://picsum.photos/1000/800'}
                            alt={'placeholder'}
+                           placeholder={'blurred'}
                            className={cardStyles.image}
               />
             }>
@@ -46,6 +47,7 @@ const SectionAdditionalInformation = () => {
             <Card title={'Big title'} image={
               <StaticImage src={'https://picsum.photos/800/1000'}
                            alt={'placeholder'}
+                           placeholder={'blurred'}
                            className={cardStyles.image}
               />
             }>
