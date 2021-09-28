@@ -30,7 +30,7 @@ const SectionAdditionalInformation = () => {
                            className={cardStyles.image}
               />
             }
-                  linkText={'Get started'} linkRef={"/#"}
+                  linkText={'Get started'} linkRef={"#"}
             >
               Learn how to use the CLI to manipulate Holium data.
             </Card>
@@ -42,7 +42,7 @@ const SectionAdditionalInformation = () => {
                            className={cardStyles.image}
               />
             }
-                  linkText={'Contribute'} linkRef={"/#"}
+                  linkText={'Contribute'} linkRef={"https://github.com/polyphene"}
             >
               We are eager to collaborate and showcase exciting use cases!
             </Card>

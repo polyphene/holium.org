@@ -28,10 +28,10 @@ const Hero = () => {
             Bring your modern data stack to the Web3 era.
           </Typography>
           <div className={styles.buttonWrapper}>
-            <Button>
+            <Button to={'#'}>
               Get started
             </Button>
-            <Button secondary>
+            <Button to={'https://discord.gg/A3t5ZFSbCG'} secondary>
               Join the community
             </Button>
           </div>

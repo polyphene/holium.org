@@ -16,7 +16,7 @@ const Card = ({ title, image, children, linkText, linkRef, ...other }) => {
         {children}
       </Typography>
       {linkText && linkRef ?
-        <Button className={styles.button}>
+        <Button className={styles.button} to={linkRef}>
           {linkText}
         </Button>
         : ''}

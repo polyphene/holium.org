@@ -26,5 +26,9 @@ $transparent-grey: rgba($color-not-so-light, 0.395);
     font-size: 20px;
     line-height: 120%;
     color: $text-dark;
+
+    a {
+      color: inherit;
+    }
   }
 }

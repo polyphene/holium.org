@@ -21,15 +21,15 @@ const SectionCommunityLinks = () => {
           <div className={styles.cardsWrapper}>
             <IconCard icon={<i className={'ci-home_alt_fill'}/>}
                       description={'Learn more about Holium by checking the documentation!'}
-                      linkText={'Read'} linkRef={'/'}
+                      linkText={'Read'} linkRef={'#'}
             />
             <IconCard icon={<i className={'ci-discord'}/>}
                       description={'Join us on Discord and ask questions!'}
-                      linkText={'Chat'} linkRef={'/'}
+                      linkText={'Chat'} linkRef={'https://discord.gg/A3t5ZFSbCG'}
             />
             <IconCard icon={<i className={'ci-github'}/>}
                       description={'Open issues, PRs, request features and vote on them on Github!'}
-                      linkText={'Contribute'} linkRef={'/'}
+                      linkText={'Contribute'} linkRef={'https://github.com/polyphene'}
             />
           </div>
         </div>
