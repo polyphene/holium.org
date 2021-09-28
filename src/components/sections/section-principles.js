@@ -4,18 +4,20 @@ import * as cardStyles from '../card.module.scss'
 import classNames from 'classnames'
 import Card from '../card'
 import { StaticImage } from 'gatsby-plugin-image'
-import FloatingSpheresLayout, {
+import FloatingSpheresWrapper, {
   BlueSphere,
+  LightBlueSphere,
   PurpleSphere,
 } from '../layouts/floating-spheres-layout'
 
 const SectionPrinciples = () => {
   return (
-    <FloatingSpheresLayout
+    <FloatingSpheresWrapper
       animatedObjects={
         <>
-          <PurpleSphere top={'440px'} left={'calc(50% - 280px)'}/>
-          <BlueSphere top={'760px'} left={'calc(50% + 460px)'} size={190}/>
+          <LightBlueSphere top={'140px'} left={'80%'} size={150} zIndex={2}/>
+          <PurpleSphere top={'300px'} left={'10%'}/>
+          <BlueSphere top={'520px'} left={'45%'} size={190}/>
         </>
       }
     >
@@ -59,7 +61,7 @@ const SectionPrinciples = () => {
           </Card>
         </div>
       </div>
-    </FloatingSpheresLayout>
+    </FloatingSpheresWrapper>
   )
 }
 

@@ -14,8 +14,8 @@ const SectionAdditionalInformation = () => {
     <FloatingSpheresLayout
       animatedObjects={
         <>
-          <PurpleSphere top={'440px'} left={'calc(50% - 280px)'}/>
-          <BlueSphere top={'760px'} left={'calc(50% + 460px)'} size={190}/>
+          <BlueSphere top={'140px'} left={'calc(50% - 280px)'}/>
+          <PurpleSphere top={'360px'} left={'calc(50% + 460px)'} size={190}/>
         </>
       }
     >
