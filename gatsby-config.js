@@ -32,5 +32,13 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '3',
+        matomoUrl: 'https://analytics.polyphene.io',
+        siteUrl: 'https://holium.org'
+      }
+    },
   ],
 };
