@@ -9,14 +9,17 @@ const Hero = () => {
     <div className={classNames('container', styles.wrapper)}>
       <div className={styles.mainBox}>
         <Typography variant="h1" className={styles.textGradient}>
-          Here is our vision that we are sharing with you
+          Freely transform data.
+        </Typography>
+        <Typography variant='body2' className={styles.subTitle}>
+          Bring your modern data stack to the Web3 era.
         </Typography>
         <div className={styles.buttonWrapper}>
           <Button>
-            Try Holium
+            Get started
           </Button>
           <Button secondary>
-            Learn more
+            Join the community
           </Button>
         </div>
       </div>
