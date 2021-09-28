@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient cx="640" cy="360" r="640" id="gradient-1">
+      <stop offset="0" style="stop-color: rgba(95, 95, 95, 1)"/>
+      <stop offset="1" style="stop-color: rgba(44, 44, 44, 1)"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" style="fill: url(#gradient-1);"/>
+  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 86px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 200.671875, 33.453125)"><tspan x="439.326" y="317.363" style="font-size: 133px;">Image</tspan><tspan x="439.32598876953125" dy="1.4em">​</tspan><tspan>Coming Soon</tspan></text>
+</svg>
