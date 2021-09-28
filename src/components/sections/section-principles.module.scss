@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: $text-light;
+
+  .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -11,7 +11,7 @@ const Card = ({ title, image, children, ...other }) => {
         </Typography>
         : ''}
       {image}
-      <Typography variant="body3">
+      <Typography variant="body3" className={styles.description}>
         {children}
       </Typography>
     </div>
