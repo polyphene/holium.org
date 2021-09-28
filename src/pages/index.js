@@ -3,8 +3,8 @@ import '../styles/global.scss'
 import * as styles from './index.module.scss'
 import Header from '../components/sections/header'
 import Hero from '../components/sections/hero'
-import SectionCommunityLinks from '../components/sections/section-community-links'
-import SectionTerminal from '../components/sections/section-terminal'
+import SectionCommunityLinks
+  from '../components/sections/section-community-links'
 import SectionAdditionalInformation
   from '../components/sections/section-additional-information'
 import Footer from '../components/sections/footer'
@@ -24,7 +24,6 @@ const IndexPage = () => {
         <SectionPrinciples/>
         <SectionCommunityLinks/>
         <SectionAdditionalInformation/>
-        <SectionTerminal/>
         <Footer/>
       </main>
   )
