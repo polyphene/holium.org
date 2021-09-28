@@ -1,7 +1,6 @@
 import * as React from 'react'
 import * as styles from './section-additional-information.module.scss'
 import * as cardStyles from '../card.module.scss'
-import Typography from '../typography'
 import classNames from 'classnames'
 import Card from '../card'
 import { StaticImage } from 'gatsby-plugin-image'
@@ -21,42 +20,31 @@ const SectionAdditionalInformation = () => {
       }
     >
       <div className={classNames('container', styles.wrapper)}>
-        <Typography variant="h2">
-          Here is what we do at Polyphene
-        </Typography>
-        <Typography variant="body3" className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus,
-          habitant nullam est hendrerit sollicitudin viverra. Ultricies cursus
-          turpis morbi a aliquam eu, auctor magnis massa. Orci cursus purus
-          morbi faucibus morbi at. Nisl turpis aliquet mauris, amet. Vel
-          faucibus fringilla risus elementum arcu elit.
-        </Typography>
         <div className={styles.body}>
           <div className={styles.cardsWrapper}>
-            <Card title={'Big title'} image={
-              <StaticImage src={'https://picsum.photos/1000/800'}
-                           alt={'placeholder'}
+            <Card title={'Check our tutorials'} image={
+              <StaticImage src={'../../images/tutorial.svg'}
+                           alt={'tutorial'}
+                           objectFit={'contain'}
                            placeholder={'blurred'}
                            className={cardStyles.image}
               />
-            }>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium
-              nisl egestas sit odio auctor sed ornare ac sem non est duis elit
-              ac.
+            }
+                  linkText={'Get started'} linkRef={"/#"}
+            >
+              Learn how to use the CLI to manipulate Holium data.
             </Card>
-            <Card title={'Big title'} image={
-              <StaticImage src={'https://picsum.photos/800/1000'}
-                           alt={'placeholder'}
+            <Card title={'Want to share a use case?'} image={
+              <StaticImage src={'../../images/use-case.svg'}
+                           alt={'use case'}
+                           objectFit={'contain'}
                            placeholder={'blurred'}
                            className={cardStyles.image}
               />
-            }>
-              Pretium nisl egestas sit odio auctor sed ornare ac sem non est
-              duis
-              elit ac.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium
-              nisl egestas sit odio auctor sed ornare ac sem non est duis elit
-              ac.
+            }
+                  linkText={'Contribute'} linkRef={"/#"}
+            >
+              We are eager to collaborate and showcase exciting use cases!
             </Card>
           </div>
         </div>

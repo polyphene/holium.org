@@ -5,16 +5,13 @@
   flex-direction: column;
   color: $text-light;
 
-  .description {
-    font-size: 20px;
-    line-height: 120%;
-    margin-bottom: 128px;
-  }
-
   .body {
     .cards-wrapper {
       display: flex;
       justify-content: space-around;
+      > * {
+        width: 392px;
+      }
     }
   }
 }

@@ -1,8 +1,9 @@
 import * as React from 'react'
 import * as styles from './card.module.scss'
 import Typography from './typography'
+import Button from './button'
 
-const Card = ({ title, image, children, ...other }) => {
+const Card = ({ title, image, children, linkText, linkRef, ...other }) => {
   return (
     <div className={styles.card} {...other}>
       {title ?
@@ -14,6 +15,11 @@ const Card = ({ title, image, children, ...other }) => {
       <Typography variant="body3" className={styles.description}>
         {children}
       </Typography>
+      {linkText && linkRef ?
+        <Button className={styles.button}>
+          {linkText}
+        </Button>
+        : ''}
     </div>
   )
 }

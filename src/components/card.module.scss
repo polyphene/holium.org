@@ -13,6 +13,10 @@ $transparent-grey: rgba($color-not-so-light, 0.195);
   padding: 0 18px 36px;
   color: $text-white;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   .title {
     margin-bottom: 18px;
     text-transform: uppercase;
@@ -29,5 +33,9 @@ $transparent-grey: rgba($color-not-so-light, 0.195);
 
   .description {
     font-size: 20px;
+  }
+
+  .button {
+    margin-top: 16px;
   }
 }
