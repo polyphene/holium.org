@@ -10,6 +10,7 @@ import SectionAdditionalInformation
   from '../components/sections/section-addtional-information'
 import Footer from '../components/sections/footer'
 import Banner from '../components/sections/banner'
+import Video from '../components/sections/video'
 
 const IndexPage = () => {
   return (
@@ -17,6 +18,7 @@ const IndexPage = () => {
         <Banner/>
         <Header/>
         <Hero/>
+        <Video/>
         <SectionWhyHolium/>
         <SectionSlideshow/>
         <SectionTerminal/>
