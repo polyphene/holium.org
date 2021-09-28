@@ -3,7 +3,7 @@ import '../styles/global.scss'
 import * as styles from './index.module.scss'
 import Header from '../components/sections/header'
 import Hero from '../components/sections/hero'
-import SectionWhyHolium from '../components/sections/section-why-holium'
+import SectionCommunityLinks from '../components/sections/section-community-links'
 import SectionSlideshow from '../components/sections/section-slideshow'
 import SectionTerminal from '../components/sections/section-terminal'
 import SectionAdditionalInformation
@@ -23,7 +23,7 @@ const IndexPage = () => {
         <SectionVideo/>
         <SectionMainImage/>
         <SectionPrinciples/>
-        <SectionWhyHolium/>
+        <SectionCommunityLinks/>
         <SectionSlideshow/>
         <SectionTerminal/>
         <SectionAdditionalInformation/>

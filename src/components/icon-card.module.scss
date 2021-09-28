@@ -1,11 +1,15 @@
 @import "../styles/variables";
 
 .wrapper {
-  width: 210px;
+  width: 292px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 64px;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
 
   .icon-box {
     width: 210px;
@@ -31,4 +35,9 @@
     color: $text-dark;
     margin-bottom: 0;
   }
+
+  .link {
+    color: $color-dark-pink;
+  }
+
 }
