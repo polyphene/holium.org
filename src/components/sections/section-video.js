@@ -1,9 +1,9 @@
 import * as React from 'react'
-import * as styles from './video.module.scss'
+import * as styles from './section-video.module.scss'
 import Frame from '../frame'
 import { StaticImage } from 'gatsby-plugin-image'
 
-const Video = () => {
+const SectionVideo = () => {
   return (
     <div className={styles.wrapper}>
       <Frame>
@@ -16,4 +16,4 @@ const Video = () => {
   )
 }
 
-export default Video
+export default SectionVideo
