@@ -3,7 +3,7 @@
 .wrapper {
   display: flex;
   min-height: 312px;
-  color: $text-dark;
+  color: $text-light;
 
   .column {
     width: 33%;
@@ -17,6 +17,10 @@
 
     span {
       font-size: 20px;
+
+      &:first-child {
+        margin-top: 48px;
+      }
 
       &:not(:last-child) {
         margin-bottom: 36px;
