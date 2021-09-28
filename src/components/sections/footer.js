@@ -42,9 +42,6 @@ const Footer = () => {
           <Link to={'https://twitter.com/polyphenehq/'}>
             <Typography variant="body3">About us</Typography>
           </Link>
-          <Link to={'#'}>
-            <Typography variant="body3">Media kit</Typography>
-          </Link>
         </div>
       </div>
     </WavyWhiteLayout>
