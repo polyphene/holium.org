@@ -27,7 +27,7 @@ const Footer = () => {
         <div className={styles.column}>
           <Link to={'#'}>
             <Typography variant="body3"><i
-              className={'ci-home_alt_fill'}/> Documentation</Typography>
+              className={'ci-bulb'}/> Documentation</Typography>
           </Link>
           <Link to={'https://discord.gg/A3t5ZFSbCG'}>
             <Typography variant="body3"><i

@@ -19,7 +19,7 @@ const SectionCommunityLinks = () => {
       <div className={classNames('container', styles.wrapper)}>
         <div className={styles.body}>
           <div className={styles.cardsWrapper}>
-            <IconCard icon={<i className={'ci-home_alt_fill'}/>}
+            <IconCard icon={<i className={'ci-bulb'}/>}
                       description={'Learn more about Holium by checking the documentation!'}
                       linkText={'Read'} linkRef={'#'}
             />
