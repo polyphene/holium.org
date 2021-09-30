@@ -25,7 +25,7 @@ const SectionMainImage = () => {
           With Holium, teams around the world collaborate on the transformation
           of all types of data to unlock the best insights.
         </Typography>
-        <StaticImage src={'../../images/image-placeholder.svg'}
+        <StaticImage src={'../../images/main-image-placeholder.svg'}
                      alt={'placeholder'}
                      placeholder={'blurred'}
         />
