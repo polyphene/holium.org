@@ -8,7 +8,6 @@ import SectionCommunityLinks
 import SectionAdditionalInformation
   from '../components/sections/section-additional-information'
 import Footer from '../components/sections/footer'
-import Banner from '../components/sections/banner'
 import SectionVideo from '../components/sections/section-video'
 import SectionMainImage from '../components/sections/section-main-image'
 import SectionPrinciples from '../components/sections/section-principles'
@@ -16,7 +15,6 @@ import SectionPrinciples from '../components/sections/section-principles'
 const IndexPage = () => {
   return (
       <main className={styles.main}>
-        <Banner/>
         <Header/>
         <Hero/>
         <SectionVideo/>
