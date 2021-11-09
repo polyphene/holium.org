@@ -1,4 +1,5 @@
 @import "../../styles/variables";
+@import "../../styles/media-queries";
 
 .wrapper {
   display: flex;
@@ -19,16 +20,25 @@
     position: relative;
     overflow: visible;
     width: 100%;
-    padding-top: 92%;
+    padding-top: 78%;
 
     .image {
       position: absolute;
       top: 0;
-      left: -20%;
+      left: 0;
       bottom: 0;
       right: 0;
-      width: 140%;
+      width: 100%;
       height: 100%;
+    }
+
+    @include media-min-xxl {
+      padding-top: 92%;
+
+      .image {
+        left: -20%;
+        width: 140%;
+      }
     }
   }
 }

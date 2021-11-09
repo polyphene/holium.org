@@ -1,4 +1,5 @@
 @import "../../styles/variables";
+@import "../../styles/media-queries";
 
 .wrapper {
   display: flex;
@@ -14,8 +15,12 @@
   .iframe-container {
     position: relative;
     overflow: hidden;
-    width: 64vw;
+    width: 82vw;
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+
+    @include media-min-md {
+      width: 64vw;
+    }
 
     .responsive-iframe {
       position: absolute;

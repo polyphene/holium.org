@@ -27,15 +27,15 @@ const Footer = () => {
         <div className={styles.column}>
           <Link to={'#'}>
             <Typography variant="body3"><i
-              className={'ci-bulb'}/> Documentation</Typography>
+              className={'ci-bulb'}/> Documentation</Typography>
           </Link>
           <Link to={'https://discord.gg/A3t5ZFSbCG'}>
             <Typography variant="body3"><i
-              className={'ci-discord'}/> Discord</Typography>
+              className={'ci-discord'}/> Discord</Typography>
           </Link>
           <Link to={'https://github.com/polyphene'}>
             <Typography variant="body3"><i
-              className={'ci-github'}/> Github</Typography>
+              className={'ci-github'}/> Github</Typography>
           </Link>
         </div>
         <div className={styles.column}>

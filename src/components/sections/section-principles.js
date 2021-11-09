@@ -18,7 +18,9 @@ const SectionPrinciples = () => {
     <FloatingSpheresWrapper
       animatedObjects={
         <>
-          <LightBlueSphere top={'140px'} left={'80%'} size={150} zIndex={2}/>
+          <div className={styles.frontSpheres}>
+            <LightBlueSphere top={'140px'} left={'80%'} size={150} zIndex={2}/>
+          </div>
           <PurpleSphere top={'300px'} left={'10%'}/>
           <BlueSphere top={'520px'} left={'45%'} size={190}/>
         </>
