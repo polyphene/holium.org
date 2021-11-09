@@ -14,10 +14,8 @@ const Hero = () => {
         <>
           <BlueSphere top={'10px'} left={'calc(50% + 120px)'} size={40}/>
           <LightBlueSphere top={'60px'} left={'80%'} size={80}/>
-          <div className={styles.largeSpheres}>
-            <PinkSphere top={'360px'} left={'4%'} size={300}/>
-            <Cloud top={'320px'} left={'75%'} size={240} zIndex={2}/>
-          </div>
+          <PinkSphere top={'360px'} left={'4%'} size={300}/>
+          <Cloud top={'320px'} left={'75%'} size={240} zIndex={2}/>
         </>
       }
     >
