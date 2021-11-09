@@ -20,7 +20,7 @@
       align-items: center;
       gap: 48px;
 
-      @include media-min-md {
+      @include media-min-lg {
         flex-direction: row;
         align-items: stretch;
         gap: initial;
