@@ -11,9 +11,12 @@ import Footer from '../components/sections/footer'
 import SectionVideo from '../components/sections/section-video'
 import SectionMainImage from '../components/sections/section-main-image'
 import SectionPrinciples from '../components/sections/section-principles'
+import SEO from '../components/seo'
 
 const IndexPage = () => {
   return (
+    <>
+      <SEO/>
       <main className={styles.main}>
         <Header/>
         <Hero/>
@@ -24,6 +27,7 @@ const IndexPage = () => {
         <SectionAdditionalInformation/>
         <Footer/>
       </main>
+    </>
   )
 }
 

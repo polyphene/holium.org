@@ -1,7 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://holium.org",
     title: "Holium",
+    description: "Freely transform data.",
+    siteUrl: "https://holium.org",
+    image: "/logo.png", // Path to the image placed in the 'static' folder, in the project's root directory.
+    twitterUsername: "@polyphenehq",
   },
   plugins: [
     {
