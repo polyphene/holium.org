@@ -25,7 +25,7 @@ The Holium website is made with [Gatsby](https://www.gatsbyjs.com/).
 
    Edit `src/pages/index.js` to see it update in real-time!
 
-## 📚 Learn more
+## 📚 Learn more on Gatsby
 
 - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
