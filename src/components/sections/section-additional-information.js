@@ -30,7 +30,7 @@ const SectionAdditionalInformation = () => {
                            className={cardStyles.image}
               />
             }
-                  linkText={'Get started'} linkRef={"#"}
+                  linkText={'Get started'} linkRef={"https://docs.holium.org/"}
             >
               Learn how to use the CLI to manipulate Holium data.
             </Card>

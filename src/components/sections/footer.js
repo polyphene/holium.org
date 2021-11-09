@@ -25,7 +25,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className={styles.column}>
-          <Link to={'#'}>
+          <Link to={'https://docs.holium.org/'}>
             <Typography variant="body3"><i
               className={'ci-bulb'}/> Documentation</Typography>
           </Link>

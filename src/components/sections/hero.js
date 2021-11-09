@@ -28,7 +28,7 @@ const Hero = () => {
             Bring your modern data stack to the Web3 era.
           </Typography>
           <div className={styles.buttonWrapper}>
-            <Button to={'#'}>
+            <Button to={'https://docs.holium.org'}>
               Get started
             </Button>
             <Button to={'https://discord.gg/A3t5ZFSbCG'} secondary>

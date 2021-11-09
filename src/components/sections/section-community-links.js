@@ -21,7 +21,7 @@ const SectionCommunityLinks = () => {
           <div className={styles.cardsWrapper}>
             <IconCard icon={<i className={'ci-bulb'}/>}
                       description={'Learn more about Holium by checking the documentation!'}
-                      linkText={'Read'} linkRef={'#'}
+                      linkText={'Read'} linkRef={'https://docs.holium.org/'}
             />
             <IconCard icon={<i className={'ci-discord'}/>}
                       description={'Join us on Discord and ask questions!'}
