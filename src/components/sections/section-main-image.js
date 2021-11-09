@@ -5,7 +5,7 @@ import Typography from '../typography'
 import WavyWhiteLayout from '../layouts/wavy-white-layout'
 import topSeparator from '../../images/separator-0.svg'
 import bottomSeparator from '../../images/separator-1.svg'
-import { StaticImage } from 'gatsby-plugin-image'
+import Image from '../../images/svg-assets/main-image.svg'
 
 const SectionMainImage = () => {
   return (
@@ -25,10 +25,9 @@ const SectionMainImage = () => {
           With Holium, teams around the world collaborate on the transformation
           of all types of data to unlock the best insights.
         </Typography>
-        <StaticImage src={'../../images/main-image-placeholder.svg'}
-                     alt={'placeholder'}
-                     placeholder={'blurred'}
-        />
+        <div className={styles.imageWrapper}>
+          <Image className={styles.image}/>
+        </div>
       </div>
     </WavyWhiteLayout>
   )

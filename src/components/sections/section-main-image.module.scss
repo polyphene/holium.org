@@ -13,4 +13,22 @@
     line-height: 120%;
     margin-bottom: 32px;
   }
+
+  .image-wrapper {
+    margin-top: 32px;
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    padding-top: 92%;
+
+    .image {
+      position: absolute;
+      top: 0;
+      left: -20%;
+      bottom: 0;
+      right: 0;
+      width: 140%;
+      height: 100%;
+    }
+  }
 }
