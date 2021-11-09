@@ -1,22 +1,15 @@
 @import "../../styles/variables";
+@import "../../styles/media-queries";
 
 .wrapper {
   height: 180px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-
   margin-bottom: 8px;
 
-  .spacer {
-    flex-grow: 1;
-  }
+  justify-content: center;
 
-  .documentation-link {
-    color: $text-white;
-  }
-
-  .contact-button {
-    margin-left: 32px;
+  @include media-min-lg {
+    justify-content: flex-start;
   }
 }
