@@ -5,6 +5,8 @@ import Typography from '../typography'
 import topSeparator from '../../images/separator-2.svg'
 import bottomSeparator from '../../images/separator-3.svg'
 import WavyWhiteLayout from '../layouts/wavy-white-layout'
+import { StaticImage } from 'gatsby-plugin-image'
+import Frame from '../frame'
 
 const SectionTerminal = () => {
   return (
@@ -20,7 +22,12 @@ const SectionTerminal = () => {
         <Typography variant="h2">
           Here could be a terminal
         </Typography>
-        <div className={styles.mockTerminal}/>
+        <Frame>
+          <StaticImage src={'https://picsum.photos/2994/1767'}
+                       alt={'placeholder'}
+                       placeholder={'blurred'}
+          />
+        </Frame>
       </div>
     </WavyWhiteLayout>
   )

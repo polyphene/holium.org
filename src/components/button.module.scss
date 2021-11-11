@@ -7,6 +7,10 @@ $shadow-color: rgba(41, 26, 51, 0.25);
   border-radius: 5px;
   border: none;
 
+  a {
+    text-decoration: none;
+  }
+
   &:not(:disabled) {
     cursor: pointer;
   }

@@ -4,23 +4,21 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  color: $text-light;
+  color: $text-dark;
 
   .body {
     .cards-wrapper {
       display: flex;
       justify-content: space-around;
-      > * {
-        width: 392px;
-        max-width: 80vw;
-        margin-bottom: 48px;
-      }
 
       flex-direction: column;
       align-items: center;
       gap: 48px;
+      > * {
+        margin-bottom: 48px;
+      }
 
-      @include media-min-lg {
+      @include media-min-md {
         flex-direction: row;
         align-items: stretch;
         gap: initial;

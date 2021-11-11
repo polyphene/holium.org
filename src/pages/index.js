@@ -3,24 +3,31 @@ import '../styles/global.scss'
 import * as styles from './index.module.scss'
 import Header from '../components/sections/header'
 import Hero from '../components/sections/hero'
-import SectionWhyHolium from '../components/sections/section-why-holium'
-import SectionSlideshow from '../components/sections/section-slideshow'
-import SectionTerminal from '../components/sections/section-terminal'
+import SectionCommunityLinks
+  from '../components/sections/section-community-links'
 import SectionAdditionalInformation
-  from '../components/sections/section-addtional-information'
+  from '../components/sections/section-additional-information'
 import Footer from '../components/sections/footer'
+import SectionVideo from '../components/sections/section-video'
+import SectionMainImage from '../components/sections/section-main-image'
+import SectionPrinciples from '../components/sections/section-principles'
+import SEO from '../components/seo'
 
 const IndexPage = () => {
   return (
+    <>
+      <SEO/>
       <main className={styles.main}>
         <Header/>
         <Hero/>
-        <SectionWhyHolium/>
-        <SectionSlideshow/>
-        <SectionTerminal/>
+        <SectionVideo/>
+        <SectionMainImage/>
+        <SectionPrinciples/>
+        <SectionCommunityLinks/>
         <SectionAdditionalInformation/>
         <Footer/>
       </main>
+    </>
   )
 }
 

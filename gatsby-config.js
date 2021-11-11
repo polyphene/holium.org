@@ -1,9 +1,20 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://holium.org",
     title: "Holium",
+    description: "Freely transform data.",
+    siteUrl: "https://holium.org",
+    image: "/logo.png", // Path to the image placed in the 'static' folder, in the project's root directory.
+    twitterUsername: "@polyphenehq",
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /svg-assets/
+        }
+      }
+    },
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
@@ -31,6 +42,14 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '3',
+        matomoUrl: 'https://analytics.polyphene.io',
+        siteUrl: 'https://holium.org'
+      }
     },
   ],
 };

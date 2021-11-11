@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const uuid = () => Math.random().toString().replace('0.', '')
 
-export const BlueSphere = ({ top, left, size }) => (
+export const BlueSphere = ({ top, left, size, zIndex = 0 }) => (
   <StaticImage src={'../../images/sphere-blue.png'}
                alt={'floating decorative blue bubble'}
                width={250}
@@ -15,12 +15,13 @@ export const BlueSphere = ({ top, left, size }) => (
                  left,
                  width: size,
                  height: size,
+                 zIndex,
                }}
                key={uuid()}
   />
 )
 
-export const LightBlueSphere = ({ top, left, size }) => (
+export const LightBlueSphere = ({ top, left, size, zIndex = 0 }) => (
   <StaticImage src={'../../images/sphere-light-blue.png'}
                alt={'floating decorative light blue bubble'}
                width={250}
@@ -31,12 +32,13 @@ export const LightBlueSphere = ({ top, left, size }) => (
                  left,
                  width: size,
                  height: size,
+                 zIndex,
                }}
                key={uuid()}
   />
 )
 
-export const PinkSphere = ({ top, left, size }) => (
+export const PinkSphere = ({ top, left, size, zIndex = 0 }) => (
   <StaticImage src={'../../images/sphere-pink.png'}
                alt={'floating decorative pink bubble'}
                width={250}
@@ -47,12 +49,13 @@ export const PinkSphere = ({ top, left, size }) => (
                  left,
                  width: size,
                  height: size,
+                 zIndex,
                }}
                key={uuid()}
   />
 )
 
-export const PurpleSphere = ({ top, left, size }) => (
+export const PurpleSphere = ({ top, left, size, zIndex = 0 }) => (
   <StaticImage src={'../../images/sphere-purple.png'}
                alt={'floating decorative purple bubble'}
                width={250}
@@ -63,6 +66,24 @@ export const PurpleSphere = ({ top, left, size }) => (
                  left,
                  width: size,
                  height: size,
+                 zIndex,
+               }}
+               key={uuid()}
+  />
+)
+
+export const Cloud = ({ top, left, size, zIndex = 0 }) => (
+  <StaticImage src={'../../images/cloud.png'}
+               alt={'floating decorative cloud'}
+               width={250}
+               placeholder={'none'}
+               className={styles.animated}
+               style={{
+                 top,
+                 left,
+                 width: size,
+                 height: size,
+                 zIndex,
                }}
                key={uuid()}
   />

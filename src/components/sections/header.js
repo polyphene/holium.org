@@ -2,8 +2,6 @@ import * as React from 'react'
 import * as styles from './header.module.scss'
 import classNames from 'classnames'
 import { StaticImage } from 'gatsby-plugin-image'
-import Button from '../button'
-import Typography from '../typography'
 
 const Header = () => {
   return (
@@ -12,13 +10,6 @@ const Header = () => {
                    width={251}
                    placeholder={'none'}
       />
-      <div className={styles.spacer}/>
-      <Typography variant="h4" className={styles.documentationLink}>
-        Documentation
-      </Typography>
-      <Button secondary className={styles.contactButton}>
-        Contact us
-      </Button>
     </div>
   )
 }

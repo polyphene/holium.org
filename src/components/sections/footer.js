@@ -5,6 +5,7 @@ import Typography from '../typography'
 import { StaticImage } from 'gatsby-plugin-image'
 import topSeparator from '../../images/separator-4.svg'
 import WavyWhiteLayout from '../layouts/wavy-white-layout'
+import { Link } from 'gatsby'
 
 const Footer = () => {
   return (
@@ -15,23 +16,32 @@ const Footer = () => {
     >
       <div className={classNames('container', styles.wrapper)}>
         <div className={styles.column}>
-          <StaticImage src={'../../images/logo-dark.svg'} alt={'Holium logo'}
-                       width={200}
-                       placeholder={'none'}
-                       className={styles.logo}
-          />
+          <Link to={'/'}>
+            <StaticImage src={'../../images/logo-dark.svg'} alt={'Holium logo'}
+                         width={200}
+                         placeholder={'none'}
+                         className={styles.logo}
+            />
+          </Link>
         </div>
         <div className={styles.column}>
-          <Typography variant='h2'>Support</Typography>
-          <Typography variant='body3'>Documentation</Typography>
-          <Typography variant='body3'>Community</Typography>
-          <Typography variant='body3'>Contact Holium</Typography>
+          <Link to={'https://docs.holium.org/'}>
+            <Typography variant="body3"><i
+              className={'ci-bulb'}/> Documentation</Typography>
+          </Link>
+          <Link to={'https://discord.gg/A3t5ZFSbCG'}>
+            <Typography variant="body3"><i
+              className={'ci-discord'}/> Discord</Typography>
+          </Link>
+          <Link to={'https://github.com/polyphene'}>
+            <Typography variant="body3"><i
+              className={'ci-github'}/> Github</Typography>
+          </Link>
         </div>
         <div className={styles.column}>
-          <Typography variant='h2'>Company</Typography>
-          <Typography variant='body3'>About us</Typography>
-          <Typography variant='body3'>Blog</Typography>
-          <Typography variant='body3'>Media kit</Typography>
+          <Link to={'https://twitter.com/polyphenehq/'}>
+            <Typography variant="body3">About us</Typography>
+          </Link>
         </div>
       </div>
     </WavyWhiteLayout>

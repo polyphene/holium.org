@@ -1,3 +1,5 @@
+@import "../../styles/media-queries";
+
 @keyframes float {
   0% {
     transform: translateY(0px);
@@ -16,6 +18,11 @@
 
   .relative-wrapper {
     position: relative;
+
+    display: none;
+    @include media-min-lg {
+      display: block;
+    }
 
     .animated {
       position: absolute;

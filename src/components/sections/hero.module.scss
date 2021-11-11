@@ -2,19 +2,25 @@
 
 .wrapper {
   display: flex;
+  justify-content: center;
 
   .main-box {
-    width: 430px;
+    width: 480px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
 
     .text-gradient {
       background: $text-gradient, $color-dark-blue;
       color: transparent;
       background-clip: text;
+      margin-bottom: 20px;
+    }
 
-      margin-bottom: 50px;
+    .sub-title {
+      color: $text-light;
+      margin-bottom: 64px;
     }
 
     .button-wrapper {
