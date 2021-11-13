@@ -1,8 +1,8 @@
 import * as React from 'react'
 import * as styles from './section-principles.module.scss'
-import * as cardStyles from '../card.module.scss'
+import * as cardStyles from '../misc/card.module.scss'
 import classNames from 'classnames'
-import Card from '../card'
+import Card from '../misc/card'
 import FloatingSpheresWrapper, {
   BlueSphere,
   LightBlueSphere,

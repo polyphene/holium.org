@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as styles from './footer.module.scss'
 import classNames from 'classnames'
-import Typography from '../typography'
+import Typography from '../misc/typography'
 import { StaticImage } from 'gatsby-plugin-image'
 import topSeparator from '../../images/separator-4.svg'
 import WavyWhiteLayout from '../layouts/wavy-white-layout'

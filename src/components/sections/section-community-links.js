@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as styles from './section-community-links.module.scss'
 import classNames from 'classnames'
-import IconCard from '../icon-card'
+import IconCard from '../misc/icon-card'
 import WavyWhiteLayout from '../layouts/wavy-white-layout'
 import topSeparator from '../../images/separator-0.svg'
 import bottomSeparator from '../../images/separator-1.svg'

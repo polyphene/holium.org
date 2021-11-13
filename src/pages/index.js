@@ -11,7 +11,7 @@ import Footer from '../components/sections/footer'
 import SectionVideo from '../components/sections/section-video'
 import SectionMainImage from '../components/sections/section-main-image'
 import SectionPrinciples from '../components/sections/section-principles'
-import SEO from '../components/seo'
+import SEO from '../components/misc/seo'
 
 const IndexPage = () => {
   return (

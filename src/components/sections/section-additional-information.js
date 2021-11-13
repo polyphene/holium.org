@@ -1,8 +1,8 @@
 import * as React from 'react'
 import * as styles from './section-additional-information.module.scss'
-import * as cardStyles from '../card.module.scss'
+import * as cardStyles from '../misc/card.module.scss'
 import classNames from 'classnames'
-import Card from '../card'
+import Card from '../misc/card'
 import { StaticImage } from 'gatsby-plugin-image'
 import FloatingSpheresLayout, {
   BlueSphere,

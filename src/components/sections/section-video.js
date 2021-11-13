@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as styles from './section-video.module.scss'
-import Frame from '../frame'
+import Frame from '../misc/frame'
 
 const SectionVideo = () => {
   return (

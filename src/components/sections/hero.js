@@ -1,8 +1,8 @@
 import * as React from 'react'
 import * as styles from './hero.module.scss'
 import classNames from 'classnames'
-import Typography from '../typography'
-import Button from '../button'
+import Typography from '../misc/typography'
+import Button from '../misc/button'
 import FloatingSpheresWrapper, {
   BlueSphere, Cloud, LightBlueSphere, PinkSphere,
 } from '../layouts/floating-spheres-layout'

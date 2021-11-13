@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as styles from './section-main-image.module.scss'
 import classNames from 'classnames'
-import Typography from '../typography'
+import Typography from '../misc/typography'
 import WavyWhiteLayout from '../layouts/wavy-white-layout'
 import topSeparator from '../../images/separator-0.svg'
 import bottomSeparator from '../../images/separator-1.svg'

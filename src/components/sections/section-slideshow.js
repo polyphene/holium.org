@@ -1,8 +1,8 @@
 import * as React from 'react'
 import * as styles from './section-slideshow.module.scss'
-import Typography from '../typography'
+import Typography from '../misc/typography'
 import classNames from 'classnames'
-import IconCard from '../icon-card'
+import IconCard from '../misc/icon-card'
 
 const SectionSlideshow = () => {
   return (
