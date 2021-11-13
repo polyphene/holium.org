@@ -1,5 +1,7 @@
 # Welcome to holium.org 👋
 
+[![Package version](https://img.shields.io/github/package-json/v/polyphene/holium.org.svg)](https://github.com/polyphene/holium.org/)
+
 [![GitHub latest commit](https://badgen.net/github/last-commit/polyphene/holium.org/main)](https://github.com/polyphene/holium.org/commit/)
 [![GitHub issues](https://img.shields.io/github/issues/polyphene/holium.org.svg)](https://github.com/polyphene/holium.org/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/polyphene/holium.org.svg)](https://github.com/polyphene/holium.org/pull/)
