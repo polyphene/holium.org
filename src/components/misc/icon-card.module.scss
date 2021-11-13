@@ -1,0 +1,43 @@
+@import "../../styles/variables";
+
+.wrapper {
+  width: 292px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  .icon-box {
+    width: 210px;
+    height: 210px;
+    background: $gradient-light;
+    box-shadow: $box-shadow;
+    border-radius: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 132px;
+      background: $background-dark, $color-black;
+      color: transparent;
+      background-clip: text;
+    }
+  }
+
+  .description {
+    padding: 0 12px;
+    color: $text-dark;
+    margin-bottom: 0;
+  }
+
+  .link {
+    color: $color-dark-pink;
+  }
+
+}

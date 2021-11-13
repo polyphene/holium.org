@@ -1,54 +1,38 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Welcome to holium.org 👋
+
+[![Package version](https://img.shields.io/github/package-json/v/polyphene/holium.org.svg)](https://github.com/polyphene/holium.org/)
+
+[![GitHub latest commit](https://badgen.net/github/last-commit/polyphene/holium.org/main)](https://github.com/polyphene/holium.org/commit/)
+[![GitHub issues](https://img.shields.io/github/issues/polyphene/holium.org.svg)](https://github.com/polyphene/holium.org/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/polyphene/holium.org.svg)](https://github.com/polyphene/holium.org/pull/)
+
+[![maintainer](https://img.shields.io/badge/maintainer-Polyphene-blue)](https://twitter.com/polyphenehq/)
+[![Discord](https://img.shields.io/discord/882061839347908678.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/A3t5ZFSbCG)
+[![license](https://badgen.net/github/license/polyphene/holium.org)](https://raw.githubusercontent.com/polyphene/holium.org/main/LICENSE)
+
+> This repository holds the sources of https://holium.org .
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+The website is powered by [Gatsby](https://www.gatsbyjs.com/).
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+1. **Start developing.**
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+   ```shell
+   npm run develop
+   ```
 
-2.  **Start developing.**
+2. **Open the code and start customizing!**
 
-    Navigate into your new site’s directory and start it up.
+   The site is now running at http://localhost:8000!
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+   Edit `src/pages/index.js` to see it update in real-time!
 
-3.  **Open the code and start customizing!**
+## 📚 Learn more on Gatsby
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
