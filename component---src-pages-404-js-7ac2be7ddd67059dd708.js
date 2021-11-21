@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkholium_website=self.webpackChunkholium_website||[]).push([[883],{9616:function(e,t,u){u.r(t);var n=u(7294),i=u(5444);t.default=function(){return(0,n.useEffect)((function(){(0,i.navigate)("/")}),[]),n.createElement("div",null)}}}]);
+//# sourceMappingURL=component---src-pages-404-js-7ac2be7ddd67059dd708.js.map
