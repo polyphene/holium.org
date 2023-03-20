@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Holium",
     description: "Freely transform data.",
-    siteUrl: "https://holium.org",
+    siteUrl: "https://polyphene.github.io/holium.org",
     image: "/logo.png", // Path to the image placed in the 'static' folder, in the project's root directory.
     twitterUsername: "@polyphenehq",
   },
@@ -48,7 +48,7 @@ module.exports = {
       options: {
         siteId: '3',
         matomoUrl: 'https://analytics.polyphene.io',
-        siteUrl: 'https://holium.org'
+        siteUrl: 'https://polyphene.github.io/holium.org/'
       }
     },
   ],
