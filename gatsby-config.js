@@ -6,6 +6,7 @@ module.exports = {
     image: "/logo.png", // Path to the image placed in the 'static' folder, in the project's root directory.
     twitterUsername: "@polyphenehq",
   },
+  pathPrefix: `/holium.org`,
   plugins: [
     {
       resolve: "gatsby-plugin-react-svg",
