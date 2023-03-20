@@ -1,6 +1,6 @@
 {
   "name": "holium-website",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "description": "Holium",
   "author": "Polyphene <contact@polyphene.io>",
@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
